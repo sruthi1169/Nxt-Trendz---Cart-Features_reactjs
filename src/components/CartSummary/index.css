@@ -1,0 +1,81 @@
+.summury-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.order-total {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #616e7c;
+}
+
+.total {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  color: #171f46;
+}
+
+.desc {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #616e7c;
+}
+
+.length {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #171f46;
+}
+
+.small-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'roboto';
+  padding: 8px 12px 8px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 125px;
+}
+
+ {
+  /* in this media query the small btn is hide after 767 px */
+}
+
+@media screen and (min-width: 768px) {
+  .small-btn {
+    display: none;
+  }
+}
+
+.large-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'roboto';
+  padding: 8px 12px 8px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 150px;
+  align-self: flex-end;
+}
+
+ {
+  /* in this media queary the large button is hide exactly 767 px */
+}
+
+@media screen and (max-width: 767px) {
+  .large-btn {
+    display: none;
+  }
+}
